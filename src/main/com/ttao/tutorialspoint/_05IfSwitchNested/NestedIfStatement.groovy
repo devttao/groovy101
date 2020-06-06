@@ -6,7 +6,7 @@ class NestedIfStatement {
     static void main(String[] args) {
         // Initializing a local variable
         int a = 12
-
+        sleep(5)
         //Check for the boolean condition
         if (a>100) {
             //If the condition is true print the following statement

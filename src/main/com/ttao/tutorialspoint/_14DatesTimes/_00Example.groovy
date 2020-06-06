@@ -6,8 +6,8 @@ class _00Example {
 
         // display time and date using toString()
         System.out.println(date.toString());
-
-
+        def formattedDate = date.format("yyy-dd-MM_HHmmss")
+        println(formattedDate)
 
         Date date2 = new Date(100);
 

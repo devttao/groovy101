@@ -13,6 +13,7 @@ class LogicalOperators {
 
         println( x || z )
         println( x || y )
+        println( y || x )
         println( ! x )
     }
 }
